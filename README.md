@@ -25,7 +25,7 @@ https://github.com/data-intelligence-for-health-lab/ICD10-Unsupervised-Feature-S
 ## Notes
 1. The Concrete Autoencoder code is based on the [original implementation](https://github.com/mfbalin/Concrete-Autoencoders) by [mfbalin](https://github.com/mfbalin)
 
-2. If you are using Canadian version of ICD-10 codes (ICD-10-CA), you need to need to place them in the repository (in `ICD_10_CA_DX.csv`). [Canadian Institute for Health Information](https://secure.cihi.ca/estore/productSeries.htm?pc=PCC84) sells them to researchers and I was not allowed to share them (although I believe that is embarassing for a publicly funded organization to sell something like that to researchers). I also shared `ICD_10_CA_DX_EXAMPLE.csv` which contains 3 examples of the ICD-10-CA codes so that you do not buy a wrong format.
+2. If you are using the Canadian version of ICD-10 codes (ICD-10-CA), you need to place them in the repository (in `ICD_10_CA_DX.csv`). [Canadian Institute for Health Information](https://secure.cihi.ca/estore/productSeries.htm?pc=PCC84) sells them to researchers and I was not allowed to share them (although I believe that it is embarrassing for a publicly funded organization to sell something like that to researchers). I also shared `ICD_10_CA_DX_EXAMPLE.csv` which contains 3 examples of the ICD-10-CA codes so that you do not buy a wrong format.
 
 3. If you are using just the WHO version and not the Canadian version, just leave `ICD_10_CA_DX.csv` empty (or add your desired local ICD codes).
 
