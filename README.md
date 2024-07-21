@@ -1,10 +1,10 @@
 # Unsupervised & Supervised Feature Selection to Identify Important ICD-10 and ATC Codes for Machine Learning
 
 This repository contains the code for the best feature selection method introduced in the paper titled "[_Unsupervised Feature Selection to Identify Important ICD-10 and ATC Codes for Machine Learning: A Case Study on a Coronary Artery Disease Patient Cohort_](https://medinform.jmir.org/2024/0/e0/)".
-Please cite the following paper if you use this code in your research:
+Please cite the following paper if you use this code in your research (and also the [original Concrete Autoencoder paper](https://arxiv.org/abs/1901.09346)):
 
     @article{ghasemi2024unsupervised,
-    title={Unsupervised Feature Selection to Identify Important ICD-10 and ATC Codes for Machine Learning: A Case Study on a Coronary Artery Disease Patient Cohort},
+    title={Unsupervised Feature Selection to Identify Important ICD-10 and ATC Codes for Machine Learning on a Cohort of Patients With Coronary Heart Disease: Retrospective Study},
     author={Ghasemi, P. and Lee, J.},
     journal={JMIR Med Inform},
     year={2024},
@@ -23,9 +23,9 @@ https://github.com/data-intelligence-for-health-lab/ICD10-Unsupervised-Feature-S
     - Packages included in requirements.txt
 
 ## Notes
-1. The Concrete Autoencoder code is based on the [original implementation](https://github.com/mfbalin/Concrete-Autoencoders) by [mfbalin](https://github.com/mfbalin)
+1. The Concrete Autoencoder code is based on the [original implementation](https://github.com/mfbalin/Concrete-Autoencoders)
 
-2. If you are using the Canadian version of ICD-10 codes (ICD-10-CA), you need to place them in the repository (in `ICD_10_CA_DX.csv`). [Canadian Institute for Health Information](https://secure.cihi.ca/estore/productSeries.htm?pc=PCC84) sells them to researchers and I was not allowed to share them (although I believe that it is embarrassing for a publicly funded organization to sell something like that to researchers). I also shared `ICD_10_CA_DX_EXAMPLE.csv` which contains 3 examples of the ICD-10-CA codes so that you do not buy a wrong format.
+2. If you are using the Canadian version of ICD-10 codes (ICD-10-CA), you need to place them in the repository (in `ICD_10_CA_DX.csv`). [Canadian Institute for Health Information](https://secure.cihi.ca/estore/productSeries.htm?pc=PCC84) sells them to researchers and I was not allowed to share them (although I believe that it is inappropriate for a publicly funded organization to sell something like that to researchers). I also shared `ICD_10_CA_DX_EXAMPLE.csv` which contains 3 examples of the ICD-10-CA codes so that you do not buy a wrong format.
 
 3. If you are using just the WHO version and not the Canadian version, just leave `ICD_10_CA_DX.csv` empty (or add your desired local ICD codes).
 
