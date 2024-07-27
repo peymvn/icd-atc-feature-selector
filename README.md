@@ -1,6 +1,6 @@
 # Unsupervised & Supervised Feature Selection to Identify Important ICD-10 and ATC Codes for Machine Learning
 
-This repository contains the code for the best feature selection method introduced in the paper titled "[_Unsupervised Feature Selection to Identify Important ICD-10 and ATC Codes for Machine Learning: A Case Study on a Coronary Artery Disease Patient Cohort_](https://medinform.jmir.org/2024/0/e0/)".
+This repository contains the code for the best feature selection method introduced in the paper titled "[_Unsupervised Feature Selection to Identify Important ICD-10 and ATC Codes for Machine Learning on a Cohort of Patients With Coronary Heart Disease: Retrospective Study_](https://medinform.jmir.org/2024/1/e52896/)".
 Please cite the following paper if you use this code in your research (and also the [original Concrete Autoencoder paper](https://arxiv.org/abs/1901.09346)):
 
     @article{ghasemi2024unsupervised,
@@ -8,9 +8,9 @@ Please cite the following paper if you use this code in your research (and also 
     author={Ghasemi, P. and Lee, J.},
     journal={JMIR Med Inform},
     year={2024},
-    volume={0},
-    pages={e0},
-    url={https://medinform.jmir.org/2024/0/e0/},
+    volume={12},
+    pages={e52896},
+    url={https://medinform.jmir.org/2024/1/e52896/},
     doi={10.2196/52896}
     }
 
